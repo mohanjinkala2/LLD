@@ -84,3 +84,9 @@
          }
          }
        
+>**Key Characteristics of Aggregation:**
+
+    -->Represents a has-a relationship.
+    -->The contained object can not exist independently of the container.
+    -->Implemented using references (pointers) to objects.
+    -->Promotes tight coupling between objects.
