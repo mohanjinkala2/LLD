@@ -9,15 +9,10 @@
 
 >**Example:**
 
-      _____________
-      
-     |             |-->Teacher_class(container_class)
-     
-     |   _______   |
-     
-     |  |       |--|-->Student_class(contained_class)
-     
-     |  |______ |  |
-     
-     |_____________|
+        _____________ 
+       |             |-->Teacher_class(container_class)
+       |   _______   |
+       |  |       |--|-->Student_class(contained_class)
+       |  |______ |  |
+       |_____________|
             
