@@ -6,7 +6,9 @@
 **Characteristics of Association:**
 
 >Represents a **uses-a** or **knows-a** relationship.
+
 >**Objects in an association can exist independently**.
+
 >Can be **unidirectional** or **bidirectional**.
 
 
