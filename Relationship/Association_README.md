@@ -16,11 +16,9 @@
 
 >**(1)One-to-One Association:**
 
-
-
-   <i>Each object of class A is associated with one object of class B.
+      <i>Each object of class A is associated with one object of class B.
    
-   <ii>A Person has one Passport.
+      <ii>A Person has one Passport.
 
 >**(2)One-to-Many Association:**
 
