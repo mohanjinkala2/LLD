@@ -79,8 +79,8 @@
      }
      }
 
-public class AssociationExample {
-    public static void main(String[] args) {
+     public class AssociationExample {
+     public static void main(String[] args) {
         Teacher teacher1 = new Teacher("Mr. Smith");
         Teacher teacher2 = new Teacher("Mrs. Johnson");
         
@@ -93,5 +93,5 @@ public class AssociationExample {
         
         teacher1.showStudents();
         teacher2.showStudents();
-    }
-}
+     }
+     }
