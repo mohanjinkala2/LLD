@@ -7,7 +7,7 @@
       --->TYPES:
           1)ASSOCIATION(Uses-a):
       
-              i)COMPOSITION(Had-a)
+              i)COMPOSITION(Has-a)
          
               ii)Aggregation(Has-a)
          
