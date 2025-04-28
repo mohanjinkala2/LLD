@@ -10,9 +10,9 @@
 >**Example:**
 
         _____________ 
-       |             |-->University_object(container_object or containing_object)
+       |             |-->Car_object(container_object or containing_object)
        |   _______   |
-       |  |       |--|-->Professor_object(contained_object)
+       |  |       |--|-->Engine_object(contained_object)
        |  |______ |  |
        |_____________|
 
