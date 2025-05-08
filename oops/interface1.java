@@ -14,6 +14,9 @@ interface vehical1{
 interface engine1{
     public void start();
 }
+interface engine2 extends engine1{//one interface can extends other interface. 
+    public void stop();
+}
 class car1 implements vehical1,engine1{//like this we can implement >=1 no.of interfaces.
     int tyre;
     String color;
