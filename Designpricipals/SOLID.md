@@ -51,23 +51,23 @@
 
 # I->Interface Segregation Principle
 
--->This principle is the first principle that applies to Interfaces instead of classes in SOLID and it is similar to the Single Responsibility principle. It states that do not force any client to implement an interface which is irrelevant to them. Here your main goal is to focus on avoiding fat interface and give preference to many small client-specific interfaces. You should prefer many client interfaces rather than one general interface and each interface should have a specific responsibility.
+  -->This principle is the first principle that applies to Interfaces instead of classes in SOLID and it is similar to the Single Responsibility principle. It states that do not force any client to implement an interface which is irrelevant to them. Here your main goal is to focus on avoiding fat interface and give preference to many small client-specific interfaces. You should prefer many client interfaces rather than one general interface and each interface should have a specific responsibility.
 
---># **Advantages Of Following I**:
+  -->**Advantages Of Following I**:
 
-   -->(1)**Reduces unnecessary dependencies**
+     -->(1)Reduces unnecessary dependencies
 
-   -->(2)**Simplifies implementation for specific use cases**
+     -->(2)Simplifies implementation for specific use cases
 
--->**Example:** Consider a software system modeling various office equipment through a Machine interface that encompasses multiple functionalities: printing, scanning, and faxing. This design presents a violation of the Interface Segregation Principle when implementing a basic printer device.The fundamental issue arises when a BasicPrinter class, which is designed solely for printing operations, must implement the complete Machine interface. This forces the class to provide implementations for scan() and fax() methods, despite these capabilities being outside its core functionality.
+  -->**Example:** Consider a software system modeling various office equipment through a Machine interface that encompasses multiple functionalities: printing, scanning, and faxing. This design presents a violation of the Interface Segregation Principle when implementing a basic printer device.The fundamental issue arises when a BasicPrinter class, which is designed solely for printing operations, must implement the complete Machine interface. This forces the class to provide implementations for scan() and fax() methods, despite these capabilities being outside its core functionality.
 
 # D->Dependency Inversion Principle
 
--->DIP suggests that classes should rely on abstractions (e.g., interfaces or abstract classes) rather than concrete implementations. This allows for more flexible and decoupled code, making it easier to change implementations without affecting other parts of the codebase.
+  -->DIP suggests that classes should rely on abstractions (e.g., interfaces or abstract classes) rather than concrete implementations. This allows for more flexible and decoupled code, making it easier to change implementations without affecting other parts of the codebase.
 
---># **Advantages Of Following D**:
+  -->**Advantages Of Following D**:
 
-   -->(1)**Promotes decoupled architecture**
-
-   -->(2)**Facilitates testing and maintainability**
+     -->(1)Promotes decoupled architecture
+ 
+     -->(2)Facilitates testing and maintainability
 
