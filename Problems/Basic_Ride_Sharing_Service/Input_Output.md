@@ -19,10 +19,17 @@
         User3.RideOn(1,2);
 
    **User Can Book A Ride**
+   
         User1.BookRide(1, 1, 3, 4);
-        
 
+   **User Can Check His Last Ride As A Rider Or Driver**
+   
+        User1.Rider_History();
 
+        User1.Driver_History();
+
+  **User Can Turn Off Ride Mode**
+  
         User2.RideOff();
 
         User3.RideOff();
