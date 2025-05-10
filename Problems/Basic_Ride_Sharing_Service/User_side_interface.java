@@ -20,10 +20,7 @@ public class User_side_interface {
 
         User1.BookRide(1, 1, 3, 4);
         
-        int[] RideHistory=User1.Rider_history.peek();
-
-        System.out.print("Your Last Ride Is From "+RideHistory[0]+","+RideHistory[1]+" To "+RideHistory[2]+","+RideHistory[3]);
-
+        User1.Rider_History();
 
         User2.RideOff();
 

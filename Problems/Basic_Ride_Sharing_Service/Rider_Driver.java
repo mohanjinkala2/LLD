@@ -72,15 +72,27 @@ public class Rider_Driver extends user {
         return Register.getUserDetails(PhoneNo);
 
     }
+
     public String getId(){
 
         return this.ID;
 
     }
+
     public void RideOff(){
 
         Status_Of_Drivers.RemoveDriver(this);
 
+    }
+
+    public void Rider_History(){
+
+        Last_Ride_Checking.Check_History_Rider(this);
+
+    }
+
+    public void Driver_History(){
+        Last_Ride_Checking.Checking_History_Driver(this);
     }
     
 }
