@@ -1,7 +1,5 @@
 package Problems.Basic_Ride_Sharing_Service;
 
-import Problems.Basic_Ride_Sharing_Service.*;
-
 public class Online_Ride_plotForm {
 
     public static void Book_Ride(int pickUp_X_Cooridnates,int pickUp_Y_Cooridnates,int destination_X_Cooridnates,int destination_Y_Cooridnates,Rider_Driver Rider){

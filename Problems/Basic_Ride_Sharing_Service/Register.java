@@ -1,7 +1,5 @@
 package Problems.Basic_Ride_Sharing_Service;
 
-import Problems.Basic_Ride_Sharing_Service.Rider_Driver;
-
 import java.util.HashMap;
 
 public class Register {

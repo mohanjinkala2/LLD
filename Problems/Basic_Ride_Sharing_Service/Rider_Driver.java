@@ -1,7 +1,5 @@
 package Problems.Basic_Ride_Sharing_Service;
 
-import Problems.Basic_Ride_Sharing_Service.*;
-
 import java.util.Stack;
 
 public class Rider_Driver extends user {
