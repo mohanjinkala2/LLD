@@ -8,12 +8,20 @@ public class Parking_Lot implements Parking_Slot_Interface{
 
     public ArrayList<Parking_Floor> List_Of_Floors;
 
-    public Parking_Lot(String Name){
+    private static Parking_Lot Instance=null;
+
+    private Parking_Lot(String Name){
 
         this.Parking_Lot_Name=Name;
 
         this.List_Of_Floors=new ArrayList<>();
 
+    }
+    public static Parking_Lot Create_Lot(String Name){
+        if(Instance==null){
+            Instance=new Parking_Lot(Name);
+        }
+        return Instance;
     }
 
     public String Park_Vehical(Vehical_Interface Parking_Vehical){
