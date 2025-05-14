@@ -1,8 +1,17 @@
 package Problems.Parking_Lot_System;
 import java.util.HashMap;
 public class Factory_For_Parking_Lot {
+    public static int Parking_Lot_Count=0;
     public static Parking_Lot Create_Parking_Lot(String Lot_Name,int Number_Of_Floors,int Number_Of_Slots){
+              Parking_Lot_Count+=1;
+              if(Parking_Lot_Count>1){
+                 System.out.println("Parking Lot Is Already Exist , Please Use Existing Lot");
+                 Parking_Lot Lot=Parking_Lot.Create_Lot(Lot_Name);
+                 return Lot;
+              }
+              
               Parking_Lot Lot=Parking_Lot.Create_Lot(Lot_Name);
+
               for(int i=1;i<=Number_Of_Floors;i++){
                 
                 Parking_Floor Floor=new Parking_Floor(Integer.toString(i));

@@ -14,7 +14,7 @@ public class Parking_Slot implements Parking_Slot_Interface{
     }
     public String Park_Vehical(Vehical_Interface Parking_Vehical){
         if(Available_Of_Slot.equals("Available") && Parking_Vehical.Get_Type().equals(this.Type)){
-            
+
             Available_Of_Slot="Not Available";
             return Slot_Number;
         }
@@ -26,7 +26,7 @@ public class Parking_Slot implements Parking_Slot_Interface{
                 System.out.println("Sorry Your vehical Was Missing");
             }
             else{
-                System.out.println("Your vehical Was Unparked,Thanks Foe Using Our Parking Lot");
+                System.out.println("Your vehical Was Unparked,Thanks For Using Our Parking Lot");
                 Available_Of_Slot="Available";
             }
     }
