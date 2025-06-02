@@ -4,7 +4,7 @@
 //An interface cannot contain instance fields. The only fields that can appear in an interface must be declared both static and final.
 //An interface is not extended by a class; it is implemented by a class.
 //An interface can extend multiple interfaces.
-
+//But from java 8 onwards default ,static methods with body is allowed in interface.
 interface vehical1{
       String color="red";//->in interface we can't use instance variable,we can only use static and final variable.
       public void speed();//we can declare method but can't implement(same like abstract method) in interface.
